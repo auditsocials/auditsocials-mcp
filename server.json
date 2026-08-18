@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.auditsocials/auditsocials-mcp",
+  "title": "AuditSocials Glossary",
+  "description": "Define and search the AuditSocials Social Media Advertising Compliance Glossary — 212 platform-policy, advertising-compliance and enforcement terms (DSA, GDPR, FTC), CC BY 4.0.",
+  "repository": {
+    "url": "https://github.com/auditsocials/auditsocials-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "auditsocials-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

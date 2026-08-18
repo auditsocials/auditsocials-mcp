@@ -1,0 +1,14 @@
+# Smithery configuration: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+
+configSchema:
+  # No configuration required — the glossary is bundled and read-only.
+  type: object
+  properties: {}
+
+commandFunction:
+  # Produces the CLI command that starts the MCP server on stdio.
+  |-
+  config => ({ command: 'npx', args: ['-y', 'auditsocials-mcp'] })
