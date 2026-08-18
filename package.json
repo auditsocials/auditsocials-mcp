@@ -1,6 +1,7 @@
 {
   "name": "auditsocials-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.eminegurcu/auditsocials-mcp",
   "description": "MCP server exposing the AuditSocials Social Media Advertising Compliance Glossary (212 terms, CC BY 4.0) — define and search platform-policy, advertising-compliance, and enforcement terminology.",
   "type": "module",
   "license": "CC-BY-4.0",
